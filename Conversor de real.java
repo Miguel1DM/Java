@@ -20,16 +20,16 @@ public static void main(String[] args) {
 	int b = entrada.nextInt();
 	
 	switch (b) {
-	case 1:
-	System.out.println("O valor em dolar é: " + (a/4.87));
-	break;
-	case 2:
-	System.out.println("O valor em Euro é: " + (a/5.26));
-	case 3:
-	System.out.println("O valor em libra Esterlina é: " + (a/6.13));
-	case 4:
-	System.out.println("O valor em Peso Argentino é: " + (71.91*a));
-	
+		case 1:
+		System.out.println("O valor em dolar é: " + (a/4.87));
+		break;
+		case 2:
+		System.out.println("O valor em Euro é: " + (a/5.26));
+		case 3:
+		System.out.println("O valor em libra Esterlina é: " + (a/6.13));
+		case 4:
+		System.out.println("O valor em Peso Argentino é: " + (71.91*a));
+		
 	}
 }
 }
