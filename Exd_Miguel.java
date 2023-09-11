@@ -28,7 +28,7 @@ public class Exd_Miguel {
 
 		
 		for(;n<=10;n++) {
-			System.out.println("Insira o número "+n+" : ");//Aqui para eu não de dlecarar variável por variável eu crio uma estrutura de repetição.
+			System.out.println("Insira o número "+n+" : ");//Aqui para eu não ter que dlecarar variável por variável eu crio uma estrutura de repetição.
 			int b = entrada.nextInt();// Falo que o valor de b, é igual ao valor INTEIRO inserido pelo usuário.
 			int b2 = b; //Aqui eu estou atribuindo o valor de b a váriavel b2.
 			int f =b2; // Aqui eu estou atribuindo o valor de b2 a variavel f.
