@@ -27,24 +27,23 @@ public class Exd_Miguel {
 		do {
 
 		
-			for(;n<=10;n++) {
-					System.out.println("Insira o número "+n+" : ");//Aqui para eu não de dlecarar variável por variável eu crio uma estrutura de repetição.
-					int b = entrada.nextInt();// Falo que o valor de b, é igual ao valor INTEIRO inserido pelo usuário.
-					int b2 = b; //Aqui eu estou atribuindo o valor de b a váriavel b2.
-					int f =b2; // Aqui eu estou atribuindo o valor de b2 a variavel f.
-					int rt = b;// Aqui eu atribuo a variável rt o valor b, para que eu possa fazer a conta.
-					if(b2 >=g) { // Aqui eu comparo o tamanho de b2 com g.
-						g = b2; // Aqui eu falo que se b2 for maior que g, g tera o valor de b2
-						}if(t>=g){// aqui eu camparo o tamanho de t com g.
-							g = t;}			// Aqui eu falo que se t for maior que g, g tera o valor de t
-					if(p<=t){// Aqui eu comparo o valor de p ,que é o primeiro valor de g, a t ,pois g ja não tem o seu valor inicial.
-							t = p;// Aqui eu falo que se p for menor t, t passa a ter o valor p.
-							}else if(f<= t) { //Aqui eu comparo o valor de f, que é valor inicial de b2 que é b, com t.
-								t = f;}// Aqui eu falo que se for menor que t, t passar a ter o valor de f.
-					if(rt>=-12433244) {//Aqui eu comparo a grandeza de rt, a mesma de b, ao menor valor possivel para um int.
-						soma = (rt+soma);}// Aqui eu falo que se o valor de rt, igual ao valor de b, for maior ou igual ao limite negativo de um int, o seu valor sera somado a minha variável soma.
-					
-							}
+		for(;n<=10;n++) {
+			System.out.println("Insira o número "+n+" : ");//Aqui para eu não de dlecarar variável por variável eu crio uma estrutura de repetição.
+			int b = entrada.nextInt();// Falo que o valor de b, é igual ao valor INTEIRO inserido pelo usuário.
+			int b2 = b; //Aqui eu estou atribuindo o valor de b a váriavel b2.
+			int f =b2; // Aqui eu estou atribuindo o valor de b2 a variavel f.
+			int rt = b;// Aqui eu atribuo a variável rt o valor b, para que eu possa fazer a conta.
+			if(b2 >=g){ // Aqui eu comparo o tamanho de b2 com g.
+				g = b2; // Aqui eu falo que se b2 for maior que g, g tera o valor de b2
+			}if(t>=g){// aqui eu camparo o tamanho de t com g.
+				g = t;	// Aqui eu falo que se t for maior que g, g tera o valor de t
+			}if(p<=t){// Aqui eu comparo o valor de p ,que é o primeiro valor de g, a t ,pois g ja não tem o seu valor inicial.
+				t = p;// Aqui eu falo que se p for menor t, t passa a ter o valor p.
+			}else if(f<= t) { //Aqui eu comparo o valor de f, que é valor inicial de b2 que é b, com t.
+				t = f;// Aqui eu falo que se for menor que t, t passar a ter o valor de f.
+			}if(rt>=-12433244) {//Aqui eu comparo a grandeza de rt, a mesma de b, ao menor valor possivel para um int.
+				soma = (rt+soma);}// Aqui eu falo que se o valor de rt, igual ao valor de b, for maior ou igual ao limite negativo de um int, o seu valor sera somado a minha variável soma.		
+				}
 			}while(n<=10);//Aqui eu falo que se minha variável n for igual a 10 o loop acaba.
 		
 		//Aqui eu mando printar o maior, menor, media e a soma dos valores.
