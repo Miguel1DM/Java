@@ -6,11 +6,6 @@ public class Ex_C_Miguel {
 	
 public static void main(String[] args) {
 	
-	String g = "Dólar";
-	String t = "Euro";
-	String r = "Libra Esterlina";
-	String h = "Peso Argentino";
-	
 	Scanner entrada = new Scanner(System.in);
 	
 	System.out.print("Qual o valor em reais: ");
